@@ -1,0 +1,474 @@
+.Hid{
+	visibility:hidden;
+}
+.S1{
+	width: 1200px;
+	height: 500px;
+	background-color:#657C9B;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.S1-F{
+	width: 80%;
+	height: 350px;
+	/*background-color: green;*/
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+	margin:0 auto;
+}
+.S1-A{
+	width: 350px;
+	height: 350px;
+	/*background-color: #FFFFFF;*/
+	border-style:solid;
+	border-color: #FFFFFF;
+	border-width: 5px;
+	display: inline-block;
+}
+.S1-IMG{
+	width: 190px;
+	height: 190px;
+	border-radius: 100px;
+	/*background-color: pink;*/
+	position: relative;
+	transform:translateY(-50%);
+	top:40%;
+	margin:0 auto;
+	background-image: url('images/PH.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.S1-IMG-T{
+	/*background-color: blue;*/
+	width: 250px;
+	height: 40px;
+	margin:0 auto;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 微軟正黑體;
+	color: #FFFFFF;
+}
+.S1-B{
+	display: inline-block;
+	width:63%;
+	height: 350px;
+	/*background-color: blue;*/
+	vertical-align: top;
+}
+.S1-W1{
+	width: 100%;
+	height: 150px;
+	/*background-color: red;*/
+	display: inline-block;
+	font-family: 微軟正黑體;
+	padding: 20px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	font-size: 12px;
+	text-align: left;
+}
+.S1-WW1{/*標題*/
+	font-size: 15px;
+	display: inline-block;
+}
+.S1-WW2{/*內容*/
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 25px;
+}
+.FX-icon{
+
+	/*background-color: red;*/
+	margin-top: 50px;
+	float: right;
+}
+.S1-icon{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	z-index: 99;
+	display: inline-block;
+}
+.MyR{
+	position: absolute;
+	width: 140px;
+	height: 40px;
+	background-color:#657C9B;
+	font-size: 17px;
+	line-height: 35px;
+	text-align: center;
+	border-color: #FFFFFF;
+	border-style: solid;
+	margin-top: 40px;
+	border-radius: 30px;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.MyR:hover{
+	background-color:#FFFFFF;
+	color: #657C9B;
+}
+.S1-icon2{
+	margin-left:30px;
+}
+.S1-icon3{
+	margin-left: 30px;
+}
+.S1-icon img{
+	width: 100%;
+}
+.S1-W2{
+	width: 100%;
+	height: 100px;
+	/*background-color: green;*/
+	display: inline-block;
+	font-family: 微軟正黑體;
+	padding: 30px 20px;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.S2{
+	width: 1200px;
+	height: 1650px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+}
+.FS2{/*固定兩個框框*/
+	/*width: 100%;*/
+	/*background-color: #efefef;*/
+	/*height: 750px;*/
+	/*position: relative;*/
+	/*margin:0 auto;*/
+	/*font-size: 0;*/
+	/*background-color: green;*/
+	/*columns: 2; column-rule: silver solid 1px;
+	column-width:300px;
+	column-gap:35px;*/
+	/*top: 80px;*/
+}
+.S2-box{
+	width: 100%;
+	height: 1540px;
+	/*background-color: red;*/
+	display: inline-block;
+	color: #0c2a53;
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	padding: 0 30px;
+	position: relative;
+}
+.S2-box2{
+	margin-top: 60px;
+}
+.S2-WT3{
+	color: #0c2a53;
+	font-size: 17px;
+	font-family: 微軟正黑體;
+	margin-top: 30px;
+}
+.W2{
+	font-size: 13px;
+}
+.S2-word{
+	/*margin-left: 150px;*/
+	text-align: left;
+	float: left;
+}
+.S2-word2{
+	/*margin-left: 150px;*/
+	text-align: left;
+}
+.S2-WT1{
+	font-size: 30px;
+}
+.S2-WT2{
+	font-size: 18px;
+	margin-top: -5px;
+	margin-left: 3px;
+}
+.S2-SK{
+	width: 200px;
+	height: 200px;
+	/*background-color: red;*/
+}
+.S2-SKW{
+	position:relative;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 135px;
+}
+
+canvas{/*圈圈進度條*/
+	display: block;
+	margin: 0;
+	/*position: absolute;*/
+	/*background: white;*/
+	left: 0;
+	top: 0;
+}
+.CA1{/*圈圈進度條*/
+	z-index:2 ;
+	/*margin-left: 100px;*/
+	margin:0 auto;
+}
+.CA2{/*圈圈進度條*/
+	z-index:3;
+	background: transparent;
+	transform:rotate(-90deg); 
+	/*margin-left: 100px;*/
+	margin:-120px auto;
+}
+.S2-WW{
+	font-size: 17px;
+	margin-top: 20px;
+}
+.S2-PS1{
+	width: 100%;
+	height: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #8EC0E4;
+}
+.S2-PS2{
+	width: 00%;
+	height: 9px;
+	background-color:  #8EC0E4;
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+	margin-left: 2px;
+	transition: width 1s ease-in-out;/* 動畫 配JQ*/
+}
+.S2-B2{
+	/*background-color: red;*/
+	width: 400px;
+	height: 200px;
+	margin-top: 60px;
+}
+.S2-R{
+	/*background-color: red;*/
+	position: relative;
+	width: 700px;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	padding:80px 60px;
+	font-family: 微軟正黑體;
+}
+.JOI{
+	animation: JOI; /*動畫名稱*/
+	animation-duration: 1s;/*動畫時間*/
+}
+@keyframes JOI { /*淡入動畫*/
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+}
+.S2-2T{
+	margin-top: 40px;
+	margin-bottom:-20px; 
+}
+.S2-TT{
+  background-color: #9baec8;
+  color: #0c2a53;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.accordion {/*手風琴*/
+  background-color: #9baec8;
+  color: #0c2a53;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-top: 20px;
+}
+.active, .accordion:hover {/*手風琴*/
+  background-color: #657C9B;
+  color: #FFFFFF;
+}
+.panel {/*手風琴*/
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.E1-1{
+	 color: #0c2a53;
+	 font-family: 微軟正黑體;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+}
+.E1-1-IMG{
+	width: 100%;
+	overflow: hidden;
+}
+.E1-1-IMG img{
+	width: 100%;
+	transition: all 0.6s;
+}
+.E1-1-IMG img:hover{
+	transform: scale(1.2);
+}
+.S3{
+	width: 1200px;
+	height: 780px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	padding: 0 30px;
+	color: #0c2a53;
+	font-family: 微軟正黑體;
+	/*background-color: red;*/
+	overflow: hidden;
+}
+.S3-A{
+	width: 80%;
+	height: 260px;
+	/*background-color: red;*/
+	margin-left: 50%;
+
+	margin-top: 50px;
+	transform:translateX(-50%);
+}
+.S3-A2{
+	width: 80%;
+    height: 260px;
+    /* background-color: red; */
+    margin-right: 50%;
+    margin-top: 50px;
+    float: right;
+    transform: translateX(50%);
+}
+.S3-AC1{
+	animation: S3-AC1; /*動畫名稱*/
+	animation-duration: 1.5s;/*動畫時間*/
+}
+.S3-AC2{
+	animation: S3-AC2; /*動畫名稱*/
+	animation-duration: 1.5s;/*動畫時間*/
+}
+@keyframes S3-AC1 { /*淡入動畫*/
+		0% {
+			margin-left: -500px;
+			opacity: 0;
+		}
+		100% {
+			margin-left: 50%;
+			opacity: 1;
+		}
+}
+@keyframes S3-AC2 { /*淡入動畫*/
+		0% {
+			margin-right: -500px;
+			opacity: 0;
+		}
+		100% {
+			margin-right: 50%;
+			opacity: 1;
+		}
+}
+.S3-TT{
+	width: 100%;
+	height: 60px;
+	margin:0 auto;
+	line-height: 60px;
+	text-align: center;
+	border-top-style: solid;
+	border-bottom-style:solid;
+	border-color: #0c2a53;
+	border-width: 1px;
+}
+.S3-WT{
+	width: 300px;
+	height: 50px;
+	margin-top: 30px;
+	font-size: 25px;
+}
+.S3-W{
+	display: inline-block;
+}
+.S3-img{
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-top: -60px;
+	box-shadow:3px 3px 5px 6px #cccccc;
+	overflow: hidden;
+}
+.S3-img img{
+	width: 100%;
+}
+.S3-img:hover{
+	transform:rotate(5deg);
+}
+.DE{
+	position: absolute;
+	width: 145px;
+	height: 40px;
+	background-color:#FFFFFF;
+	font-size: 17px;
+	line-height: 35px;
+	text-align: center;
+	border-color: #657C9B;
+	border-style: solid;
+	margin-top: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #657C9B;
+}
+.DE:hover{
+	background-color:#657C9B;
+	color: #FFFFFF;
+}
+.S4{
+	width: 1200px;
+	height: 150px;
+	margin:0 auto;
+	background-color:#657c9b;
+	padding: 0 30px;
+	color: #FFFFFF;
+	font-family: 微軟正黑體;
+	/*background-color: red;*/
+	margin-bottom:50px;
+	text-align: center;
+	line-height: 110px; 
+	font-size: 13px;
+}
+.S4-FX-icon{
+	/*background-color: red;*/
+	width:500px;
+	margin:0 auto;
+	height: 50px;
+	margin-top: -70px; 
+}
+.S4-icon{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	/*background-color: green;*/
+}
+.S4-icon img{
+	width: 100%;
+}
+.S4-icon2{
+	margin-left: 30px;
+}
