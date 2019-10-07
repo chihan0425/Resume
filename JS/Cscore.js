@@ -5,7 +5,7 @@ function inte(percent) {
     var ctx_2 = canvas_2.getContext('2d');
     ctx_1.lineWidth = 20;
     ctx_1.strokeStyle = "#D4DFE6";
-    //画底部的灰色圆环
+    //底部灰色
     ctx_1.beginPath();
     ctx_1.arc(canvas_1.width / 2, canvas_1.height / 2, canvas_1.width / 2 - ctx_1.lineWidth / 2, 0, Math.PI * 2, false);
     ctx_1.closePath();
@@ -47,7 +47,7 @@ function inte(percent) {
     var ctx_2 = canvas_2.getContext('2d');
     ctx_1.lineWidth = 20;
     ctx_1.strokeStyle = "#D4DFE6";
-    //画底部的灰色圆环
+    //底部灰色
     ctx_1.beginPath();
     ctx_1.arc(canvas_1.width / 2, canvas_1.height / 2, canvas_1.width / 2 - ctx_1.lineWidth / 2, 0, Math.PI * 2, false);
     ctx_1.closePath();
@@ -89,7 +89,7 @@ function inte(percent) {
     var ctx_2 = canvas_2.getContext('2d');
     ctx_1.lineWidth = 20;
     ctx_1.strokeStyle = "#D4DFE6";
-    //画底部的灰色圆环
+    //底部灰色
     ctx_1.beginPath();
     ctx_1.arc(canvas_1.width / 2, canvas_1.height / 2, canvas_1.width / 2 - ctx_1.lineWidth / 2, 0, Math.PI * 2, false);
     ctx_1.closePath();
@@ -131,7 +131,7 @@ function inte(percent) {
     var ctx_2 = canvas_2.getContext('2d');
     ctx_1.lineWidth = 20;
     ctx_1.strokeStyle = "#D4DFE6";
-    //画底部的灰色圆环
+    //底部灰色
     ctx_1.beginPath();
     ctx_1.arc(canvas_1.width / 2, canvas_1.height / 2, canvas_1.width / 2 - ctx_1.lineWidth / 2, 0, Math.PI * 2, false);
     ctx_1.closePath();
